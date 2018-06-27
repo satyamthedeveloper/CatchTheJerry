@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Catch the Jerry</string>
+    <string name="catch_the_jerry">Catch the Jerry</string>
+    <string name="start">START</string>
+    <string name="choicescreen_image">choicescreen image</string>
+    <string name="choose_difficulty_level">Choose Difficulty Level</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="jerry_house">jerry house</string>
+    <string name="tom" translatable="false">Tom</string>
+    <string name="successful_attempt">successful attempt</string>
+    <string name="you_got_lucky">You got Lucky</string>
+    <string name="failed_attempt">failed attempt</string>
+    <string name="better_luck_next_time">Better Luck next Time</string>
+    <string name="retry">Retry</string>
+    <string name="number_of_attempts">"Number of attempts : "</string>
+    <string name="main_menu">Main Menu</string>
+</resources>

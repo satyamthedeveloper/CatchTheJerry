@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fang den Jerry</string>
+    <string name="catch_the_jerry">Fang den Jerry</string>
+    <string name="start">ANFANG</string>
+    <string name="choicescreen_image">Bildauswahlbildschirm</string>
+    <string name="choose_difficulty_level">Wählen Sie Schwierigkeitsgrad</string>
+    <string name="easy">Einfach</string>
+    <string name="hard">Hart</string>
+    <string name="jerry_house">jerry Haus</string>
+    <string name="successful_attempt">erfolgreicher Versuch</string>
+    <string name="you_got_lucky">Du hast Glück gehabt</string>
+    <string name="failed_attempt">Fehlversuch</string>
+    <string name="better_luck_next_time">Besseres Glück beim nächsten Mal</string>
+    <string name="retry">Wiederholen</string>
+    <string name="number_of_attempts">"Anzahl der Versuche : "</string>
+    <string name="main_menu">Hauptmenü</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hard">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse1"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse2"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse3"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_alignStart="@+id/imageButton1"
+        android:layout_below="@+id/imageButton1"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse4"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse5"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse6"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_toStartOf="@+id/imageButton2"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse7"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse8"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:contentDescription="@string/jerry_house"
+        android:onClick="selectedHouse9"
+        android:src="@drawable/jerryhouse" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/tom"
+        app:srcCompat="@drawable/tom" />
+</RelativeLayout>
